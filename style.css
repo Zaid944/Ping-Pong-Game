@@ -1,0 +1,63 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing : border-box;
+}
+body{
+    height : 100vh;
+    /* background-color: black; */
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    /* to perfectly center any element */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    height : 85vh;
+    width : 80vw;
+    background-color: #1a0d52;
+    border-radius: 10px;
+}
+.ball{
+    /* to make a circle */
+    height : 40px;
+    width : 40px;
+    border-radius: 50%;
+    background-color: #fe5196;
+    position : fixed;
+    top : 45vh;
+    left : 50vw;
+}
+.paddle{
+    background-color:#fe5196;
+    height : 120px;
+    width : 15px;
+    position: fixed;
+    border-radius: 2px;
+}
+.left{
+    top : 40vh;
+    left : 12vw;
+}
+.right{
+    top : 40vh;
+    right : 12vw;
+}
+.fa-circle{
+    color: #ffbe78;
+    font-size : 2rem;
+}
+.scorecard{
+    display: flex;
+    height: 60px;
+    justify-content: space-evenly;
+    align-items : center;
+    flex : 1 1 1;
+}
+.separator{
+    width : 4px;
+    background-color: black;
+    height : 70%;
+}
+
+
